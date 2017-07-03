@@ -1,0 +1,43 @@
+header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight:bold;
+  border: 1px solid black;
+  width: 85%;
+  padding: 0px;
+  position: fixed;
+}
+
+nav {
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+}
+
+nav a{
+  color:black;
+}
+
+.logo{
+  color: mediumaquamarine
+}
+
+#main{
+
+}
+
+.large{
+ width: 630px;
+ border: 1px solid black;
+}
+
+.medium{
+ width: 300px;
+ border: 1px solid black;
+}
+
+.small{
+width: 240px;
+ border: 1px solid black;
+}
