@@ -1,0 +1,9 @@
+#header{
+	display: flex;
+}
+
+#column{
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 2;
+}
