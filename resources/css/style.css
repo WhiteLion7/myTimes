@@ -1,112 +1,30 @@
-header{
+.container{
+  display: flex;
+  border-bottom: 1px solid black;
+  height: 70px;
+}
+
+img{
+  padding-left: 60px;
+}
+
+ .logo{
   font-family: Verdana;
   font-size: 14px;
-  font-weight:bold;
-  border: 1px solid black;
-  width: 85%;
-  padding: 0px;
-  display: inline-block;
-  
-}
+  font-weight: bold;
+  color: mediumaquamarine;
+  padding: 20px 15px;
+  flex-grow: 1;
 
-nav {
-  font-family: verdana;
+}
+.navigation{
+  font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  text-align: right;
-  position: relative;
-
+  padding: 20px 60px 20px 0px;
+  word-spacing: 20px;
 }
 
-nav a{
-  color:black;
-}
-
-.logo{
-  color: mediumaquamarine
-}
-
-#main{
- font-size: 40px;
- display: flex;
- 
-}
-
-.column{
-  border: 1px solid black;
-}
-}
-
-.large{
- width: 630px;
- border: 1px solid black;
-
-}
-
-.medium{
- width: 300px;
- border: 1px solid black;
-}
-
-.small{
-width: 240px;
- border: 1px solid black;
-}
-
-.p-container{
-  border: 1px solid black;
-   font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-
-.topline{
-   font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  border: 1px solid black;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
-}
-
-.midline{
-   font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  border: 1px solid black;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
-}
-
-.memoryline{
-    font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-   border: 1px solid black;
-   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
-}
-
-.controline{
-   font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  border: 1px solid black;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
-}
-
-.footer{
-    background-color: mediumaquamarine;
-  margin: auto;
-  font-family: Verdana;
-  font-size: 12px;
-}
-
-.footer .logo{
-  color: white;
-}
-
-strong{
-  display: block;
+.navigation a{
+  color: #000000;
 }
