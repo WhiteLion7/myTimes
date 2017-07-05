@@ -28,3 +28,75 @@ img{
 .navigation a{
   color: #000000;
 }
+
+.main{
+  display: flex;
+  border: 1px solid black;
+}
+
+.logo{
+  border: 1px solid black;
+}
+
+.largeCol{
+  border: 1px solid black;
+  width: 630px;
+}
+
+.mediumCol{
+  border: 1px solid black;
+  width: 300px;
+}
+
+.smallCol{
+  border: 1px solid black;
+  width: 240px;
+}
+
+.topline{
+  border: 1px solid black;
+}
+
+.bottomLine-1{
+  border: 1px solid black;
+}
+
+.bottomLine-2{
+  border: 1px solid black;
+}
+
+.mediLine{
+  border: 1px solid black;
+}
+
+.article-1{
+  border: 1px solid black;
+}
+
+.article-2{
+  border: 1px solid black;
+}
+
+.subHead-1{
+  border: 1px solid black;
+}
+
+.subHead-2{
+  border: 1px solid black;
+}
+
+.subHead-3{
+  border: 1px solid black;
+}
+
+.subHead-4{
+  border: 1px solid black;
+}
+
+.image{
+  border: 1px solid black;
+}
+
+.empty{
+  border: 1px solid black;
+}
