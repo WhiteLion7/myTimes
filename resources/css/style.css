@@ -5,7 +5,8 @@
 .container{
   display: flex;
   height: 70px;
-  width: 100%
+  width: 100%;
+  border-bottom: 1px solid black;
  
 }
 
@@ -20,7 +21,7 @@
   color: mediumaquamarine;
   padding: 20px 15px;
   flex-grow: 1;
-  
+
 
 }
 .navigation{
@@ -39,7 +40,6 @@
 
 .main{
   display: flex;
-  border: 1px solid black;
   justify-content: space-around;
   top: 50px;
  
@@ -184,4 +184,10 @@ display: block;
 font-family: Georgia;
 font-size: 25px;
 color: black;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
