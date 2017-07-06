@@ -1,10 +1,13 @@
 .container{
   display: flex;
-  border-bottom: 1px solid black;
+  position:static;
   height: 70px;
+  width: 100%
+
+
 }
 
-img{
+.img-1{
   padding-left: 60px;
 }
 
@@ -32,71 +35,143 @@ img{
 .main{
   display: flex;
   border: 1px solid black;
+  justify-content: space-around;
 }
 
 .logo{
-  border: 1px solid black;
+ 
 }
 
 .largeCol{
-  border: 1px solid black;
-  width: 630px;
+border: 1px solid black;
+width: 630px;
+padding-top: 0px;
+margin-top:40px;
 }
 
 .mediumCol{
-  border: 1px solid black;
-  width: 300px;
+border: 1px solid black;
+padding-top: 0px;
+margin-top:40px;
+width: 300px;
 }
 
 .smallCol{
-  border: 1px solid black;
-  width: 240px;
+border: 1px solid black;
+padding-top: 0px;
+margin-top:40px;
+width: 240px;
+
 }
 
-.topline{
-  border: 1px solid black;
+.topline p{
+border: 1px solid black;
+height: 300px;
+margin:0px;
+background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
+background-size: 100% 100%;
+font-family: Georgia;
+font-weight: bold;
+font-size: 40px;
+color: white;
+
 }
 
-.bottomLine-1{
-  border: 1px solid black;
+.bottomLine-1 p{
+border: 1px solid black;
+background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
+background-size: 100% 100%;
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+background-repeat: repeat;
+height: 300px;
+text-align: center;
 }
 
-.bottomLine-2{
-  border: 1px solid black;
+.bottomLine-2 p{
+border: 1px solid black;
+background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+height: 300px;
+text-align: center;
 }
 
-.mediLine{
-  border: 1px solid black;
+.mediLine p{
+border: 1px solid black;
+background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+height: 300px;
+text-align: center;
 }
 
 .article-1{
-  border: 1px solid black;
+ border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .article-2{
-  border: 1px solid black;
+   border: 1px solid black;
+    font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .subHead-1{
-  border: 1px solid black;
+   border: 1px solid black;
+    font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .subHead-2{
   border: 1px solid black;
+   font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .subHead-3{
   border: 1px solid black;
+   font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .subHead-4{
-  border: 1px solid black;
+  border: 1px solid black; 
+   font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
-.image{
-  border: 1px solid black;
+.img-2{
+border: 1px solid black;
+  
 }
 
 .empty{
-  border: 1px solid black;
+border: 1px solid black;
+}
+
+p{
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+
+strong{
+display: block;
+font-family: Georgia;
+font-size: 25px;
+color: black;
 }
