@@ -10,23 +10,19 @@
   position: fixed;
   background-color: white;
   z-index: 1;
-
-
- 
 }
 
-.img-1{
+.logo-1{
   padding-left: 60px;
 }
 
- .logo{
+ .logo-2{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: mediumaquamarine;
   padding: 20px 15px;
   flex-grow: 1;
-
 
 }
 .navigation{
@@ -40,53 +36,51 @@
 }
 
 .navigation a{
-  color: #000000;
+color: #000000;
 }
 
 .main{
-  display: flex;
-  justify-content: space-around;
-  top: 50px;
-  padding-top: 70px;
-  
- 
+display: flex;
+top: 50px;
+padding-top: 70px;
+justify-content: space-around;
 }
 
-.logo{
- 
-}
-
-.largeCol{
-  display: inline;
-border: 1px solid black;
+.large{
 width: 630px;
-padding-top: 0px;
-margin-top:40px;
-align-items: horizontal;
-
+border: 1px solid black;
+margin-top: 40px;
+font-family: Georgia;
+font-size: 17px;
+color: black;
+display: flex;
 }
 
-.mediumCol{
-border: 1px solid black;
-padding-top: 0px;
-margin-top:40px;
+.medium{
 width: 300px;
+border: 1px solid black;
+margin-top: 40px;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
-.smallCol{
-border: 1px solid black;
-padding-top: 0px;
-margin-top:40px;
+.small{
 width: 240px;
-
+border: 1px solid black;
+margin-top: 40px;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
-.topline p{
+.textContent{
 border: 1px solid black;
-height: 300px;
-margin:0px;
+}
+
+.imageContent-1{
 background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
-background-size: 100% 100%;
+height: 300px;
 font-family: Georgia;
 font-weight: bold;
 font-size: 40px;
@@ -94,107 +88,38 @@ color: white;
 
 }
 
-.bottomLine-1 p{
-border: 1px solid black;
+.imageContent-2{
 background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
-background-size: 100% 100%;
+height: 300px;
 font-family: Georgia;
 font-weight: bold;
 font-size: 30px;
 color: white;
-background-repeat: repeat;
-height: 300px;
 text-align: center;
 }
 
-.bottomLine-2 p{
-border: 1px solid black;
+.imageContent-3{
 background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
+height: 300px;
 font-family: Georgia;
 font-weight: bold;
 font-size: 30px;
 color: white;
-height: 300px;
 text-align: center;
 }
 
-.mediLine p{
-border: 1px solid black;
+.imageContent-4{
 background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
+height: 300px;
 font-family: Georgia;
 font-weight: bold;
 font-size: 30px;
 color: white;
-height: 300px;
 text-align: center;
 }
 
-.article-1{
- border: 1px solid black;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
+.story{
 
-.article-2{
-   border: 1px solid black;
-    font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-
-.subHead-1{
-   border: 1px solid black;
-    font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-
-.subHead-2{
-  border: 1px solid black;
-   font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-
-.subHead-3{
-  border: 1px solid black;
-   font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-
-.subHead-4{
-  border: 1px solid black; 
-   font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-
-.img-2{
-border: 1px solid black;
-  
-}
-
-.empty{
-border: 1px solid black;
-}
-
-p{
-font-family: Georgia;
-font-size: 17px;
-color: black;
-}
-
-strong{
-display: block;
-font-family: Georgia;
-font-size: 25px;
-color: black;
-}
-
-.story {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
+flex-direction: column;
+width: 300px;
 }
