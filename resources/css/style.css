@@ -33,6 +33,7 @@
   word-spacing: 20px;
   display: inline-block;
 
+
 }
 
 .navigation a{
@@ -53,7 +54,6 @@ margin-top: 40px;
 font-family: Georgia;
 font-size: 17px;
 color: black;
-display: flex;
 }
 
 .medium{
@@ -76,6 +76,8 @@ color: black;
 
 .textContent{
 border: 1px solid black;
+padding: 30px;
+font-size: 15px;
 }
 
 .imageContent-1{
@@ -119,7 +121,15 @@ text-align: center;
 }
 
 .story{
-
+display: flex;
 flex-direction: column;
 width: 300px;
+display: inline-block;
+
 }
+
+h2{
+font-family: Georgia;
+font-size: 17px;
+}
+
