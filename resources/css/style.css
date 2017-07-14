@@ -49,8 +49,8 @@ justify-content: space-between;
 }
 
 .large{
+display: flex;
 width: 630px;
-border: 1px solid black;
 margin-top: 40px;
 font-family: Georgia;
 font-size: 17px;
@@ -59,7 +59,6 @@ color: black;
 
 .medium{
 width: 300px;
-border: 1px solid black;
 margin-top: 40px;
 font-family: Georgia;
 font-size: 17px;
@@ -67,16 +66,13 @@ color: black;
 }
 
 .small{
+display: flex;
+flex-direction: column;
 width: 240px;
-border: 1px solid black;
-margin-top: 40px;
-font-family: Georgia;
-font-size: 17px;
-color: black;
+
 }
 
 .textContent{
-border: 1px solid black;
 padding-top: 0px;
 font-size: 14px;
 
@@ -155,3 +151,22 @@ padding: 200px;
 padding: 200px;
 }
 
+ul{
+background-color: whitesmoke;
+font-family: Verdana;
+font-size: 12px;
+color: dimgray;
+
+}
+
+.list h2{
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.list ul li{
+  border-bottom: 1px solid black;
+  
+
+}
