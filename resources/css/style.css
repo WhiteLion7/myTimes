@@ -173,6 +173,10 @@ color: white;
 border-right: 2px solid white;
 height: 15px;
 padding-right: 20px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
 
 .footernav{
